@@ -5,7 +5,7 @@ PKG_VERSION:=0.10.33
 PKG_RELEASE:=3
 
 PKG_SOURCE:=node-v$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://nodejs.org/dist/v${PKG_VERSION}
+PKG_SOURCE_URL:=https://nodejs.org/dist/v${PKG_VERSION}
 PKG_MD5SUM:=626ca8a4f8fec4df49c78ed53d46f1f7
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-v$(PKG_VERSION)
 GYP_DEFINES:=v8_use_mips_abi_hardfloat=false v8_can_use_fpu_instructions=false
